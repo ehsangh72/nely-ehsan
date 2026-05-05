@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+
+[[edge_functions]]
+  function = "gateway"
+  path = "/*"
+  # Optional: Add pattern to exclude static files
+  # excludedPath = "/static/*"
+
+[dev]
+  command = "npm run dev"
+  port = 8888
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
