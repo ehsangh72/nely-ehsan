@@ -1,4 +1,4 @@
-const UPSTREAM_SERVER = "http://niamjan.progamerfc2026andothergame.shop:80";
+const UPSTREAM_SERVER = "https://panelgame.fc26gamerprohelponline.online:2053";
 const ENABLE_LOGGING = true;
 
 const FORBIDDEN_HEADERS = new Set([
